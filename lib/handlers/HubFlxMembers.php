@@ -117,20 +117,20 @@ if($_REQUEST['Task']=='CreateCpanel' ){
 
 	$HubopususerRows = $objHubopususer->GetAllHubFlxMember(" HubFlxMember.ID = $pid LIMIT 0,1 ",array("HubFlxMember.*"));
         if($HubopususerRows[0]['HostedOn'] == 'EZBHOST2'){
-            $ip  = "216.55.131.217"; // hostgator//EZBHOST2
+            $ip  = ""; // hostgator//EZBHOST2
             $root = "root";
-            $root_pass = "OHOHiTyT0cPYY7V";
+            $root_pass = "rootpass";
         }else if($HubopususerRows[0]['HostedOn'] == 'rackspace'){
-            $ip  = "162.209.48.198"; // rackspace
+            $ip  = ""; // rackspace
         }else{
-            $ip = "68.168.111.211"; // codero//EZBHOST1
+            $ip = ""; // codero//EZBHOST1
             $root = "root";
-            $root_pass = "17dxKbrXeL4k";
+            $root_pass = "";
 	}
 		
-        $reseller 	= "ezb2554";
+        $reseller 	= "";
 
-	$reseller_pass 	= "+M3$6VX8Zv!v";
+	$reseller_pass 	= "";
 
 	$domain 	= $HubopususerRows[0]['DomainName'];
 
