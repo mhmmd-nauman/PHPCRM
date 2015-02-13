@@ -1,0 +1,210 @@
+<!--
+Please download the PHP SDK available at https://developer.authorize.net/downloads/ for more current code.
+-->
+        <form method="post" action="subscription_create.php">
+            <table width="35%" border="0">
+                <tr>
+                    <td>
+                        <b><font size="2" face="arial">Create Subscription</font><br>
+                        <br></b>
+
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Reference Id</font>
+                    </td>
+                    <td>
+                        <input type="text" name="refId" value=''> <font size="1" face="arial">MAX = 20 chars</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Subscription Name</font>
+                    </td>
+                    <td>
+                        <input type="text" name="name" value=''>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Subscription Length</font>
+                    </td>
+                    <td>
+                        <input type="text" name="length" value=''> <font size="1" face="arial">1 - 12 or 7 - 365</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Subscription Unit</font>
+                    </td>
+                    <td>
+                        <input type="text" name="unit" value=''> <font size="1" face="arial">months or days</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Start Date</font>
+                    </td>
+                    <td>
+                        <input type="text" name="startDate" value=''> <font size="1" face="arial">YYYY-MM-DD</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Total Occurrences</font>
+                    </td>
+                    <td>
+                        <input type="text" name="totalOccurrences" value=''> <font size="1" face="arial">MAX = 9999</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Trial Occurrences</font>
+                    </td>
+                    <td>
+                        <input type="text" name="trialOccurrences" value=''> <font size="1" face="arial">0 = None. MAX = 99</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Amount</font>
+                    </td>
+                    <td>
+                        <input type="text" name="amount" value=''>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Trial Amount</font>
+                    </td>
+                    <td>
+                        <input type="text" name="trialAmount" value=''> <font size="1" face="arial">0 = None</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Credit Card Number</font>
+                    </td>
+                    <td>
+                        <input type="text" name="cardNumber" value=''>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Expiration Date</font>
+                    </td>
+                    <td>
+                        <input type="text" name="expirationDate" value=''> <font size="1" face="arial">YYYY-MM</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">First Name</font>
+                    </td>
+                    <td>
+                        <input type="text" name="firstName" value=''>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Last Name</font>
+                    </td>
+                    <td>
+                        <input type="text" name="lastName" value=''>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <input type="submit" name="submit" value="Submit"><input type="reset" name="reset" value="Reset">
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+        <form method="post" action="subscription_update.php">
+            <table width="29%" border="0">
+                <tr>
+                    <td>
+                        <b><font size="2" face="arial">Update Subscription</font><br>
+                        <br></b>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Subscription Id</font>
+                    </td>
+                    <td>
+                        <input type="text" name="subscriptionId" value=''>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Credit Card Number</font>
+                    </td>
+                    <td>
+                        <input type="text" name="cardNumber" value=''>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Expiration Date</font>
+                    </td>
+                    <td>
+                        <input type="text" name="expirationDate" value=''>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">First Name</font>
+                    </td>
+                    <td>
+                        <input type="text" name="firstName" value=''>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Last Name</font>
+                    </td>
+                    <td>
+                        <input type="text" name="lastName" value=''>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <input type="submit" name="submit" value="Submit"><input type="reset" name="reset" value="Reset">
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+        <form method="post" action="subscription_cancel.php">
+            <table width="29%" border="0">
+                <tr>
+                    <td>
+                        <b><font size="2" face="arial">Cancel Subscription</font><br>
+                        <br></b>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <font size="2" face="arial">Subscription Id</font>
+                    </td>
+                    <td>
+                        <input type="text" name="subscriptionId" value=''>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <input type="submit" name="submit" value="Submit"><input type="reset" name="reset" value="Reset">
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>

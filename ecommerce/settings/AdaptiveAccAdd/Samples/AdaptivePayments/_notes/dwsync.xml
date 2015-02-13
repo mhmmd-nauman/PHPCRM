@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="APIError.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="CancelPreapproval.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="CancelPreapprovalReceipt.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="ConvertCurrency.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="ConvertCurrencyReceipt.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="ExecutePaymentOption.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="ExecutePaymentOptionReceipt.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="GetPaymentDetails.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="GetPaymentOptionReceipt.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="GetPreapprovalDetails.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="GetpaymentOption.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="Pay.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="PayReceipt.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="PaymentDetails.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="PreapprovalDetails.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="PreapprovalReceipt.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="Refund.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="RefundReceipt.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="SetPaymentOption.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="SetPaymentOptionReceipt.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="SetPreapproval.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+<file name="ShowAllResponse.php" server="themillionaireos.com/www/" local="130082425200000000" remote="130082425200000000" />
+</dwsync>

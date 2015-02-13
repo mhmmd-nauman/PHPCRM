@@ -1,0 +1,169 @@
+
+
+10
+
+
+10
+
+
+10
+
+
+10
+
+1469311
+10
+
+
+10
+
+1469315
+10
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+The 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:expirationDate' element is invalid - The value '2012-11-09' is invalid according to its datatype 'String' - The actual length is greater than the MaxLength value.
+E00003
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+The subscription has already been canceled.
+I00002
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+Successful.
+I00001
+
+Successful.
+
+Successful.
+
+Successful.
+
+Successful.
+
+Successful.
+
+Successful.
+
+Successful.
+
+Successful.
+
+Successful.
+
+Successful.
+
+Successful.
+
+Successful.
+<resultCode>Error</resultCode><message><code>E00003</code><text>The 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:transId' element is invalid - The value '' is invalid according to its datatype 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:numericString' - The Pattern constraint failed.</text></message>
+The 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:transId' element is invalid - The value '' is invalid according to its datatype 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:numericString' - The Pattern constraint failed.
+
+Successful.
+<resultCode>Error</resultCode><message><code>E00003</code><text>The element 'getUnsettledTransactionListRequest' in namespace 'AnetApi/xml/v1/schema/AnetApiSchema.xsd' has invalid child element 'transId' in namespace 'AnetApi/xml/v1/schema/AnetApiSchema.xsd'. List of possible elements expected: 'refId' in namespace 'AnetApi/xml/v1/schema/AnetApiSchema.xsd'.</text></message>
+The element 'getUnsettledTransactionListRequest' in namespace 'AnetApi/xml/v1/schema/AnetApiSchema.xsd' has invalid child element 'transId' in namespace 'AnetApi/xml/v1/schema/AnetApiSchema.xsd'. List of possible elements expected: 'refId' in namespace 'AnetApi/xml/v1/schema/AnetApiSchema.xsd'.
+
+Successful.
+<resultCode>Error</resultCode><message><code>E00003</code><text>The element 'ARBGetSubscriptionStatusRequest' in namespace 'AnetApi/xml/v1/schema/AnetApiSchema.xsd' has invalid child element 'transId' in namespace 'AnetApi/xml/v1/schema/AnetApiSchema.xsd'. List of possible elements expected: 'refId, subscriptionId' in namespace 'AnetApi/xml/v1/schema/AnetApiSchema.xsd'.</text></message>
+The element 'ARBGetSubscriptionStatusRequest' in namespace 'AnetApi/xml/v1/schema/AnetApiSchema.xsd' has invalid child element 'transId' in namespace 'AnetApi/xml/v1/schema/AnetApiSchema.xsd'. List of possible elements expected: 'refId, subscriptionId' in namespace 'AnetApi/xml/v1/schema/AnetApiSchema.xsd'.
+
+Successful.
+<resultCode>Error</resultCode><message><code>E00003</code><text>The 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:subscriptionId' element is invalid - The value '' is invalid according to its datatype 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:numericString' - The Pattern constraint failed.</text></message>
+The 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:subscriptionId' element is invalid - The value '' is invalid according to its datatype 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:numericString' - The Pattern constraint failed.
+
+Successful.
+
+The 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:subscriptionId' element is invalid - The value '' is invalid according to its datatype 'AnetApi/xml/v1/schema/AnetApiSchema.xsd:numericString' - The Pattern constraint failed.
+
+Successful.
+
+Successful.
+
+Successful.
+
+Access denied. You do not have permission to call the Transaction Details API.
+
+Access denied. You do not have permission to call the Transaction Details API.
+
+Access denied. You do not have permission to call the Transaction Details API.
+
+Access denied. You do not have permission to call the Transaction Details API.
+
+Access denied. You do not have permission to call the Transaction Details API.
+
+Access denied. You do not have permission to call the Transaction Details API.
+
+Access denied. You do not have permission to call the Transaction Details API.
+
+Access denied. You do not have permission to call the Transaction Details API.
+
+Access denied. You do not have permission to call the Transaction Details API.
+
+Access denied. You do not have permission to call the Transaction Details API.
+authCaptureTransaction
+Successful.
+authCaptureTransaction
+Successful.
+authCaptureTransaction
+Successful.
+
+Successful.
+
+Successful.
