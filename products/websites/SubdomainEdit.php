@@ -4,7 +4,7 @@ $objSubDomains = new SubDomains();
 
 $objClient = new Clients();
 $HubopususerRows = $objSubDomains->GetAllSubDomains(" SubDomains.ID = '".$_REQUEST['id']."'",array("SubDomains.*"));
-
+//print_r($HubopususerRows);
 
 $Members_array = $objClient->GetAllClients(CLIENTS.".HasDeleted = 0 ORDER BY ".CLIENTS.".CompanyName ASC ",array("DISTINCT  ".CLIENTS.".ID","".CLIENTS.".FirstName","".CLIENTS.".Surname","".CLIENTS.".Email,".CLIENTS.".CompanyName,Address"));
  ?>
@@ -90,10 +90,12 @@ $(document).ready(function(){
      
      
      <tr>
-       <td >Real Sub Domain Name: </td>
+       <td >Customer Sub Domain Name: </td>
        <td><input name="username" type="text" value="<?php echo $HubopususerRows[0]['UserName'];?>" style="width:230px;"/></td>
-       <td> </td>
-       <td> </td>
+       <td>Vanity Domain: </td>
+       <td> 
+       <input name="vanitydomain" type="text" value="<?php echo $HubopususerRows[0]['VanityDomain'];?>" style="width:230px;"/>
+       </td>
      </tr>
      
 	 

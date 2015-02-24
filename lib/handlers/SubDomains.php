@@ -247,6 +247,7 @@ if($_REQUEST['Task']=='CreateCpanelReal' ){
 
 
 if($_REQUEST['Task']=='Update' ){
+    //echo "come here for update";
     $pid = $_REQUEST['id'];
     $updated= $objSubDomains->UpdateSubDomains("ID = '$pid' ",
                                             array(
@@ -257,6 +258,7 @@ if($_REQUEST['Task']=='Update' ){
                                                 "Notes"          =>$_REQUEST['Notes'],
                                                 "DbPassword"     =>$_REQUEST['dbpassword'],
                                                 "UserName"       =>$_REQUEST['username'],
+                                                "VanityDomain"       =>$_REQUEST['vanitydomain'],
                                                 ));
     	
 	header("Location:SubdomainEdit.php?id=".$_REQUEST['id']."&flag=update");

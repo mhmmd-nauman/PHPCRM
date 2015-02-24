@@ -344,7 +344,7 @@ $(document).ready(function(){
     <td title= "Status">Status</td>
     <td >Temp</td>
     <!--<td>Agent Name</td>-->
-    <td>Real</td>
+    <td>Customer Subdomain<br>Vanity Domain</td>
     <td>Password</td>
     <td>Hosted On</td>
     <td>Notes</td>
@@ -438,12 +438,23 @@ $(document).ready(function(){
 	 }
 	 ?>   </td>
    <td>
+       <?php if(empty($Website['UserName']) && empty($Website['VanityDomain'])){?>
        <a href="http://<?php echo $Website['SubDomain'];?>.smallbusiness.info/" target="_blank"><?php echo $Website['SubDomain'];?></a>
+       <?php }else{ ?>
+       <?php echo $Website['SubDomain'];?>
+       <?php }?>
    </td>
    
-    <td><a href="http://<?php echo $Website['UserName'];?>.smallbusiness.info/" target="_blank">
+    <td>
+        <?php if(empty($Website['VanityDomain'])){?>
+        <a href="http://<?php echo $Website['UserName'];?>.smallbusiness.info/" target="_blank">
         <?php echo $Website['UserName'];?>
         </a>
+        <?php } else{?>
+        <a href="http://<?php echo $Website['VanityDomain'];?>/" target="_blank">
+        <?php echo $Website['VanityDomain'];?>
+        </a>
+        <?php } ?>
     </td>
     <td>
         
@@ -473,13 +484,13 @@ $(document).ready(function(){
       
     
     <td class="Action">
-        <a class="editBtn" id="DomainEdit<?php echo $Website['ID'];?>" href="SubdomainEdit.php?id=<?php echo $Website['ID'];?>&Task=Update" title="Edit <?php echo $Website['UserName'];?>"> <img src="../../images/icon_page_edit.png" border="0" title="Edit Hubopus Details"/></a>
+        <a class="editBtn" id="DomainEdit<?php echo $Website['ID'];?>" href="SubdomainEdit.php?id=<?php echo $Website['ID'];?>&Task=Update" title="Edit <?php echo $Website['UserName'];?>"> <img src="../../images/icon_page_edit.png" border="0" title="Edit Subdomain Details"/></a>
         <a href="SubDomains.php?id=<?php echo $Website['ID'];?>&Task=del" onclick="return confirmation();"> <img title="Delete From Database" src="../../images/icon_delete.png" border="0"/></a>
         <?php if(($Website['Status']==3)){?>
         <a href="SubDomains.php?id=<?php echo $Website['SubDomain'];?>&DbPassword=<?php echo $Website['DbPassword'];?>&Task=CreateCpanel" target="_blank" onclick="return create_confirmation();"> <img  src="../../images/cpanel.png" border="0" title="Create Temp SubDomain"/> </a>
         <?php }else{?>
         <a href="SubDomains.php?id=<?php echo $Website['SubDomain'];?>&FromSubDomain=<?php echo $Website['SubDomain'];?>&ToSubDomain=<?php echo $Website['UserName'];?>&Task=CreateCpanelReal" target="_blank" onclick="return create_confirmation();"> 
-             <?php if(($Website['IsCPanelRenameRun']==0)){?>
+             <?php if(($Website['IsCPanelRenameRun']==0) && empty($Website['VanityDomain'])){?>
             <img  src="../../images/cpanel.png" border="0" title="Create Real SubDomain"/> </a>
              <?php } ?>
         <?php }?>
